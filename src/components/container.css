@@ -1,0 +1,14 @@
+.container{
+    color: var(--text-color);
+    /* background-color: blue; */
+    background-image: linear-gradient(to left, #00bfff, #00ffd5);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: black;
+    width: 200px;
+    text-align: center;
+}
