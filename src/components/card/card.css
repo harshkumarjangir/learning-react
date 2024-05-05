@@ -23,3 +23,83 @@
     padding: 1rem 1rem;
     border-radius: 2px;
 }
+
+.card-with-img{
+    background-color: #eaeff1;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-with-img .card .card-img img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+.card-with-img .card .card-img img:hover{
+    scale: 1.1;
+    transition: .5s ease-in;
+
+}
+
+.card-with-img{
+    width: 300px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+
+.card-with-img .card{
+    border-color: white;
+    border: 1px solid #bacdd8;
+    /* border: 1px solid black; */
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+}
+
+.heading{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+}
+
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.card-content{
+    padding: 16px 8px 8px 8px;
+}
+
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+  transition: .5s ease-in;
+}

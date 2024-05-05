@@ -8,7 +8,7 @@ const Container = () => {
     <div className="container">
         <Card name= "Harsh" course="BCA" />
         {/* <Card name= "Devesh" course="BCA" /> */}
-    
+        {/* <Card /> */}
     </div>
     </>
   )
